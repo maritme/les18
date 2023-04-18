@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mijn Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"> 
+        <style type="css/text">
+            #content{
+                margin-top: 20px;
+            }
+
+            [class*="col-"] {
+                width: 100%;
+            }
+            @media only screen and (min-width:768px){
+                [class*="col-"] {
+                    float: left;
+                    padding: 15px;
+                }
+            }
+
+            .col-1{width: 8.33%;}
+            .col-2{width: 16.66%;}
+            .col-3{width: 25%;}
+            .col-4{width: 33.33%;}
+            .col-5{width: 41.66%;}
+            .col-6{width: 50%;}
+            .col-7{width: 58.33%;}
+            .col-8{width: 66.66%;}
+            .col-9{width: 75%;}
+            .col-10{width: 83.33%;}
+            .col-11{width: 91.66%;}
+            .col-12{width: 100%;}
+
+            header{
+                width: 100%;
+                min-height: 200px;
+                background-color: aliceblue;
+                background-image: url('Wageningen-centrum-OpenTopo.jpg');
+            }
+
+            h1{
+                font-family: 'Oxygen', sans-serif;
+            }
+
+            img{
+                max-width: 150px;
+                height: auto;
+                float: right;
+                margin-right: 5px;
+            }
+            #toerisme{
+                background-color: pink;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h1>Wageningen</h1>
+            </header>
+            <div class="row">
+            <div class="col-2">
+                <section>
+                <h3>Feiten over Wageningen</h3>
+                <ul>
+                    <li> De gemeente telt 41.098 inwoners</li>
+                    <li> Op 5 Mei 1945 werd in Hotel De Wereld de capitulatie getekend</li>
+                    <li> In 1876 werd in Wageningen de Rijkslandbouwschool opgericht. Sinds 2016 Wageningen University & Research (WUR). </li>
+                    <li> Wageningen ligt waar de Veluwerand, de Gelderse Vallei en de Rijn aan elkaar grenzen.</li>
+                    <li> Het Bowlespark is gebouwd op de plek waar vroeger het Wageningse Kasteel stond</li>
+                </ul>
+                </section>
+            </div>
+            <div class="col-9" id="toerisme">
+                <div>
+                    <article>
+                        <h3>Bevrijdingsfestival</h3>
+                        <img src="5mei.jpg" alt="podium bevrijdingsfestival">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu orci lobortis, rhoncus augue vel, dignissim tortor. Nullam a dui imperdiet, vestibulum sem vitae, rhoncus metus. Etiam orci magna, pellentesque a imperdiet quis, mattis ut lacus. Quisque laoreet turpis ut risus interdum, sit amet vestibulum ex luctus. Ut in finibus elit. Curabitur eget viverra massa, ut ultricies velit. Aenean suscipit porta elementum. Cras aliquet, dui eget vestibulum varius, orci metus cursus ligula, sit amet commodo tortor mauris sit amet sapien. Proin mollis eros ac nibh tristique condimentum. Sed finibus, ligula eu rhoncus aliquet, justo magna sollicitudin massa, vitae lobortis leo lacus et nisi. Mauris finibus commodo fringilla. </p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <h3>De Casteelse Poort</h3>
+                        <img src="1280px-Casteelse_poort.jpg" alt="De Casteelse Poort">
+                        <p>De Casteelse Poort is een klein museum in de Gelderse stad Wageningen. Het museum biedt zowel permanente als tijdelijke tentoonstellingen over de geschiedenis van Wageningen, maar ook (verkoop-) exposities van moderne kunst in het zogenaamde Koetshuis.
+
+                            Het museum is gehuisvest in het pand Villa Vada, dat in de negentiende eeuw werd gebouwd met gebruikmaking van restanten van het poortgebouw van het zestiende-eeuwse kasteel van Wageningen. Op het voorterrein van het museum bevindt zich een kelder met een kruisgewelf. Deze kelder is gebouwd in 1525, maakte deel uit van het kasteel en heeft de status van rijksmonument. Gebouw en grond zijn eigendom van de gemeente Wageningen. De Casteelse Poort wordt volledig gerund door vrijwilligers. De inkomsten bestaan uit entreegelden, schenkingen en een subsidie van de gemeente. De Vereniging Vrienden van het Wagenings Museum ondersteunt het museum bij de aankoop van bijzondere objecten en bij de uitvoering van speciale projecten. </p>
+                    </article>
+                </div>
+            </div>
+            </div>
+            <footer></footer>
+        </div>
+    </body>
+</html>
