@@ -39,16 +39,16 @@
                 width: 100%;
                 min-height: 200px;
                 background-color: aliceblue;
-;
             }
 
             h1{
                 font-family: 'Oxygen', sans-serif;
-                font-size: 140px;
                 text-align: center;
                 background-image: url('Wageningen-centrum-OpenTopo.jpg')
             }
-
+                @media only screen and (min-width:768px){
+                    h1{font-size: 150px;}
+                }
             img{
                 max-width: 200px;
                 height: auto;
@@ -78,11 +78,11 @@
     <body>
         <div id="content">
             <header>
-                <h1>Wageningen</h1>
+                <h1 class="col-12">Wageningen</h1>
             </header>
             <div class="row">
                 <div class="col-2">
-                    <section id="feiten">
+                    <div id="feiten">
                     <h3>Feiten over Wageningen</h3>
                     <ul>
                         <li> De gemeente telt 41.098 inwoners</li>
@@ -91,7 +91,7 @@
                         <li> Wageningen ligt waar de Veluwerand, de Gelderse Vallei en de Rijn aan elkaar grenzen.</li>
                         <li> Het Bowlespark is gebouwd op de plek waar vroeger het Wageningse Kasteel stond</li>
                     </ul>
-                    </section>
+                    </div>
                 </div>
                 <div class="col-9" id="toerisme">
                     <div>
